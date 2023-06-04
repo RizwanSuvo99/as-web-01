@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0 auto 30px auto;
+        padding: 0;
+      }
+      body {
+        width: 80%;
+        margin: 0 auto;
+        background-image: linear-gradient(
+          to bottom right,
+          #060930,
+          #321f28,
+          #060930
+        );
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Heading -->
+    <h1 style="color: white; background: black; text-align: center">
+      Practice Class 01
+    </h1>
+
+    <h2>
+      As-Sunnah Skill Development Institute [Web Development Bootcamp] - Phase
+      01
+    </h2>
+    <img src="img/as-sunnah.jpg" style="width: 100%" />
+    As-Sunnah Social Media--<a href="https://www.facebook.com/assunnahfoundationbd"><button>Click Here</button></a>
+    <br>
+    <label for="course-select">Choose a Course:-</label>
+
+    <select name="technology" id="course-select" size="1">
+      <option value="">--Please choose an option--</option>
+      <option value="font-end">Font End Development</option>
+      <option value="back-end">Back End Development</option>
+      <option value="full-stack">Full Stack Development</option>
+      <option value="graphic-pro">Graphic Pro</option>
+      <option value="office-pro">Microsoft Office Program</option>
+      <option value="basic-it">Basic It</option>
+      <option disabled>Disabled Option</option>
+    </select>
+    <p>
+      *The above example shows typical &lt;select&gt; tag usage.Each menu option
+      is defined by an &lt;option&gt; element nested inside the
+      &lt;select&gt;&lt;/select&gt;. The &lt;select&gt; element has some unique
+      attributes you can use to control it, such as <strong>multiple</strong> to
+      specify whether multiple options can be selected, and
+      <strong>size</strong> to specify how many options should be shown at once.
+      It also accepts most of the general <strong>form</strong> input attributes
+      such as <strong>required, disabled, autofocus</strong>, etc.
+    </p>
+
+    <!-- Table Part -->
+    <h3>Creating A table using table tags:</h3>
+
+    <table>
+      <tr style="background: black">
+        <th>SL. No</th>
+        <th>Programming</th>
+        <th>Networking</th>
+        <th>Database</th>
+        <th>Multimedia</th>
+        <th>Office Application</th>
+      </tr>
+      <tr style="background: #6a6a6a; text-align: center">
+        <td>1.</td>
+        <td>C</td>
+        <td>Network Plus</td>
+        <td>Oracle</td>
+        <td>Autocad</td>
+        <td>Microsoft Office</td>
+      </tr>
+      <tr style="background: #6a6a6a; text-align: center">
+        <td>2.</td>
+        <td>C++</td>
+        <td>CCNA</td>
+        <td>MySql</td>
+        <td>Graphic Design</td>
+        <td>Advance Microsoft Office</td>
+      </tr>
+      <tr style="background: #6a6a6a; text-align: center">
+        <td>3.</td>
+        <td>Java</td>
+        <td>CompTia Network+</td>
+        <td>Microsoft Access</td>
+        <td>Ux/UI Design</td>
+        <td>Micrososft Project</td>
+      </tr>
+    </table>
+
+    <!-- Form Part -->
+    <h3>Creating A Form using form tags:</h3>
+
+    <h1>Sign Up</h1>
+    <form>
+      <label for="firstName">First Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      <input type="text" placeholder="Enter First Name" id="firstName"/>
+      <br/>
+
+      <label for="lastName">Last Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      <input type="text" placeholder="Enter Last Name" id="lastName"/>
+      <br/>
+
+      <label for="email">Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      <input type="email" placeholder="Enter Email" id="email"/>
+      <br/>
+
+      <label for="phone">Phone&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      <input type="text" value="+880" id="phone"/>
+      <br/>
+
+      <label for="password">Password&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      <input type="password" placeholder="Enter Password" id="password"/>
+      <br/>
+
+      <label for="confirmPassword">Confirm Password&nbsp;</label>
+      <input type="password" placeholder="Please Confirm" id="confirmPassword"/>
+      <br/>
+
+      <label>Gender&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      <input type="radio" name="gender" value="male"/><label>Male</label>
+      <input type="radio" name="gender" value="female"/><label>Female<label>
+      <input type="radio" name="gender" value="other"/><label>Other</label>
+      <br/>
+
+      <label>Date Of Birth&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+
+      <select name="month" id="">
+        <option value="">Month</option>
+        <option value="">January</option>
+        <option value="">February</option>
+        <option value="">March</option>
+        <option value="">April</option>
+        <option value="">May</option>
+        <option value="">June</option>
+        <option value="">July</option>
+        <option value="">August</option>
+        <option value="">September</option>
+        <option value="">October</option>
+        <option value="">November</option>
+        <option value="">December</option>
+      </select>
+
+      <select name="day" id="">
+        <option value="">1</option>
+        <option value="">2</option>
+        <option value="">3</option>
+        <option value="">4</option>
+        <option value="">5</option>
+        <option value="">6</option>
+        <option value="">7</option>
+        <option value="">8</option>
+        <option value="">9</option>
+        <option value="">10</option>
+        <option value="">11</option>
+        <option value="">12</option>
+        <option value="">13</option>
+        <option value="">14</option>
+        <option value="">15</option>
+        <option value="">16</option>
+        <option value="">17</option>
+        <option value="">18</option>
+        <option value="">19</option>
+        <option value="">20</option>
+        <option value="">21</option>
+        <option value="">22</option>
+        <option value="">23</option>
+        <option value="">24</option>
+        <option value="">25</option>
+        <option value="">26</option>
+        <option value="">27</option>
+        <option value="">28</option>
+        <option value="">29</option>
+        <option value="">30</option>
+        <option value="">31</option>
+      </select>
+      
+      <select name="year" id="">
+        <option value="">1989</option>
+        <option value="">1990</option>
+        <option value="">1991</option>
+        <option value="">1992</option>
+        <option value="">1993</option>
+        <option value="">1994</option>
+        <option value="">1995</option>
+        <option value="">1996</option>
+        <option value="">1997</option>
+        <option value="">1998</option>
+        <option value="">1999</option>
+        <option value="">2000</option>
+        <option value="">2001</option>
+        <option value="">2002</option>
+        <option value="">2003</option>
+        <option value="">2004</option>
+        <option value="">2005</option>
+        <option value="">2006</option>
+        <option value="">2007</option>
+        <option value="">2008</option>
+        <option value="">2009</option>
+        <option value="">2010</option>
+        <option value="">2011</option>
+        <option value="">2012</option>
+        <option value="">2013</option>
+        <option value="">2014</option>
+        <option value="">2015</option>
+        <option value="">2016</option>
+        <option value="">2017</option>
+        <option value="">2018</option>
+        <option value="">2019</option>
+      </select>
+      <br/>
+
+      <label>Country&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      <select name="country" id="">
+        <option value="">Bangladesh</option>
+        <option value="">India</option>
+        <option value="">Pakistan</option>
+        <option value="">USA</option>
+        <option value="">England</option>
+      </select>
+      <br/>
+
+      <input type="checkbox" align="center" id="terms" />
+      <label for="terms">I agree to your Terms of use</label>
+      <br/>
+
+      <input type="button" value="Submit"/>
+      <input type="button" value="Cancel"/>
+    </form>
+
+    <!-- Footer -->
+    <h4>©Copyright 2023 All Rights Reserved|Designed By RIZWAN SUVO</h4>
+  </body>
+</html>
